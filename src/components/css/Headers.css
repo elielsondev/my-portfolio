@@ -6,7 +6,16 @@
 
 header {
   background-color: blue;
+  border-radius: 12px;
   color: blanchedalmond;
   display: flex;
+  margin: 4px;
   justify-content: space-between;
+  padding: 5px;
+}
+
+img {
+  border-radius: 35%;
+  padding: 5px;
+  margin: 2px;
 }

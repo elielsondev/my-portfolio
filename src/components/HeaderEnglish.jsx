@@ -5,11 +5,12 @@ import './css/Headers.css';
 function HeaderEnglish({ isPortuguese }) {
   return (
     <header>
-      <h1>{ myInformations.name }</h1>
       <h1>{ myInformations.area }</h1>
-      <input
-        type="button"
-        value="EN"
+      <img 
+        src="https://www.infoescola.com/wp-content/uploads/2011/02/bandeira-do-brasil.gif" 
+        alt="Bandeira Portuguesa"
+        width='40'
+        height='40'
         onClick={ () => isPortuguese(true) }
       />
     </header>

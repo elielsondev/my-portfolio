@@ -5,12 +5,13 @@ import './css/Headers.css';
 function HeaderPortuguese({ isPortuguese }) {
   return (
     <header>
-      <h1>{ minhasInformacoes.name }</h1>
       <h1>{ minhasInformacoes.area }</h1>
-      <input 
-        type="button"
-        value="PT"
-        onClick={ () => isPortuguese(false) } 
+      <img 
+        src="https://pbs.twimg.com/profile_images/1281301644592984064/CEFg3IoT_400x400.jpg" 
+        alt="Bandeira Inglesa"
+        width='40'
+        height='40'
+        onClick={ () => isPortuguese(false) }
       />
     </header>
   )
