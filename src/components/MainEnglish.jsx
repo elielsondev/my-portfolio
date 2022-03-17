@@ -4,7 +4,10 @@ import myInformations from '../data/myInformations';
 function MainEnglish() {
   return (
     <main>
-      <h1>{ myInformations.name }</h1>
+      <div> 
+        <h1 className='fontName'>{ myInformations.name }</h1>
+        <p className='text'>{ myInformations.description }</p>
+      </div>
     </main>
   )
 }

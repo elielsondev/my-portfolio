@@ -5,7 +5,7 @@ import './css/Headers.css';
 function HeaderPortuguese({ isPortuguese }) {
   return (
     <header>
-      <h1>{ minhasInformacoes.area }</h1>
+      <h1 className='Area'>{ minhasInformacoes.area }</h1>
       <img 
         src="https://pbs.twimg.com/profile_images/1281301644592984064/CEFg3IoT_400x400.jpg" 
         alt="Bandeira Inglesa"

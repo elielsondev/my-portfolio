@@ -1,13 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-  background-color: blue;
+  background-color: #101652;
   border-radius: 12px;
-  color: blanchedalmond;
+  color: #00a8c6;
   display: flex;
   margin: 4px;
   justify-content: space-between;
@@ -18,4 +18,29 @@ img {
   border-radius: 35%;
   padding: 5px;
   margin: 2px;
+}
+
+.fontName {
+  animation: go-back 1s infinite alternate;
+  color: #00a8c6;
+  font-family: 'cookie';
+  font-size: 70px;
+}
+
+  /* https://www.alura.com.br/artigos/css-animacoes-com-transitions-animations */
+@keyframes go-back {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
+
+.Area {
+  font-family: 'Acme';
+}
+
+.text {
+  color: white;
 }
