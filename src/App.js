@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
+import HeaderEnglish from './components/HeaderEnglish';
+import HeaderPortuguese from './components/HeaderPortuguese';
 import './App.css';
 
 function App() {
+  const [ portuguese, usePortuguese ] = useState();
+
+  if (portuguese) return (
+    <>
+      <HeaderPortuguese isPortuguese={ usePortuguese } />
+    </>
+  );
   return (
-    <h1>🤯 Aguarde, em breve um portfolio maravilhoso. 🚀</h1>
-  )
-}
+    <>
+      <HeaderEnglish isPortuguese={ usePortuguese } />
+    </>
+  );
+};
 
 export default App;
