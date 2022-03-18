@@ -5,42 +5,45 @@
 }
 
 header {
-  background-color: #101652;
+  background-color:  #ffffff;
   border-radius: 12px;
-  color: #00a8c6;
+  color: #ffffff;
   display: flex;
-  margin: 4px;
   justify-content: space-between;
-  padding: 5px;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
-img {
+.Radius {
   border-radius: 35%;
   padding: 5px;
   margin: 2px;
 }
 
-.fontName {
+.FontName {
   animation: go-back 1s infinite alternate;
-  color: #00a8c6;
+  color: #00179b;
   font-family: 'cookie';
-  font-size: 70px;
+  font-size: 60px;
 }
 
   /* https://www.alura.com.br/artigos/css-animacoes-com-transitions-animations */
 @keyframes go-back {
   from {
-    transform: translateX(100px);
+    transform: translateX(60px);
   }
   to {
-    transform: translateX(0px);
+    transform: translateX(-70px);
   }
 }
 
-.Area {
-  font-family: 'Acme';
+.Contact {
+  color: #341261;
+  margin-top: 10px;
+  font-family: 'Prompt', sans-serif;
 }
 
-.text {
-  color: white;
+.Links {
+  font-size: 25px;
 }

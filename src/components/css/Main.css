@@ -1,0 +1,20 @@
+.Text {
+    color: white;
+    font-family: 'Acme';
+    font-size: 28px;
+    text-align: left;
+  }
+  
+  .Description {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 45%
+  }
+  
+  .SectionOne {
+    display: flex;
+    background-color: #0025f738;
+    margin-top: 65px;
+  }
+  
