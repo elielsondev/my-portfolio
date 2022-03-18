@@ -7,7 +7,6 @@
 header {
   background-color:  #ffffff;
   border-radius: 12px;
-  color: #ffffff;
   display: flex;
   justify-content: space-between;
   position: fixed;
@@ -22,19 +21,21 @@ header {
 }
 
 .FontName {
-  animation: go-back 1s infinite alternate;
-  color: #00179b;
+  animation: go-back 5s infinite alternate;
   font-family: 'cookie';
   font-size: 60px;
+  background-image: linear-gradient(90deg, rgb(9, 243, 9), rgb(47, 3, 241));
+  background-clip: text;
+  color: transparent;
 }
 
   /* https://www.alura.com.br/artigos/css-animacoes-com-transitions-animations */
 @keyframes go-back {
   from {
-    transform: translateX(60px);
+    transform: translateX(50px);
   }
   to {
-    transform: translateX(-70px);
+    transform: translateX(-50px);
   }
 }
 

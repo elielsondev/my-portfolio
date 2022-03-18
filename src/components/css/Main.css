@@ -1,7 +1,7 @@
 .Text {
-    color: white;
-    font-family: 'Acme';
-    font-size: 28px;
+    color: rgb(179, 176, 176);
+    font-family: 'Prompt';
+    font-size: 20px;
     text-align: left;
   }
   
@@ -15,6 +15,13 @@
   .SectionOne {
     display: flex;
     background-color: #0025f738;
-    margin-top: 65px;
+    margin-top: 4%;
+    padding: 2%;
+  }
+
+  .Hello {
+    color: rgb(123, 134, 235);
+    font-family: 'cookie', cursive;
+    font-size: 50px;
   }
   
