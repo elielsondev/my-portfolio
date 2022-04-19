@@ -1,25 +1,14 @@
 import React, { useState } from 'react';
-import HeaderEnglish from './components/HeaderEnglish';
-import HeaderPortuguese from './components/HeaderPortuguese';
+import Header from './components/Header';
 import './App.css';
-import MainPortuguese from './components/MainPortuguese';
-import MainEnglish from './components/MainEnglish';
 
 function App() {
-  const [ portuguese, usePortuguese ] = useState();
-
-  if (portuguese) return (
-    <>
-      <HeaderPortuguese isPortuguese={ usePortuguese } />
-      <MainPortuguese />
-    </>
-  );
+  const [portuguese, setPortuguese]= useState();
   return (
-    <>
-      <HeaderEnglish isPortuguese={ usePortuguese } />
-      <MainEnglish />
-    </>
-  );
-};
+    <div>
+      <Header pt={ portuguese } changeLanguage={ setPortuguese } />
+    </div>
+  )
+}
 
 export default App;
