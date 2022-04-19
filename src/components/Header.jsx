@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { language } from '../API/Api';
 
 import './css/Header.css';
 
-function Header() {
-  const [ sectionedLanguage, setSectionedLanguage ] = useState(0);
-
+function Header({ sectionedLanguage, setSectionedLanguage }) {
   function portuguese() {
     setSectionedLanguage(0);
     console.log('Portugues');

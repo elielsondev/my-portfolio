@@ -1,12 +1,28 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
+import Welcome from './components/Welcome';
 import './App.css';
 
+/* 
+  font-family: 'Beau Rivage', cursive;
+  font-family: 'Courgette', cursive;
+  font-family: 'Fredoka One', cursive;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Patrick Hand', cursive; 
+*/
+
 function App() {
-  const [portuguese, setPortuguese]= useState();
+  const [ sectionedLanguage, setSectionedLanguage ] = useState(0);
+
   return (
     <div>
-      <Header pt={ portuguese } changeLanguage={ setPortuguese } />
+      <Header 
+        sectionedLanguage={ sectionedLanguage }
+        setSectionedLanguage={ setSectionedLanguage }
+      />
+      <Welcome
+        sectionedLanguage={ sectionedLanguage }
+      />
     </div>
   )
 }
