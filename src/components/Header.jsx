@@ -18,14 +18,14 @@ function Header({ sectionedLanguage, setSectionedLanguage }) {
     <header id='Header'>
       <div>
         <img 
-          id="Flag"
+          className="Flag"
           width="50"
           src={ language[sectionedLanguage].brasilFlag }
           alt="Portugues"
           onClick={ portuguese }
         />
         <img
-          id="Flag"
+          className="Flag"
           width="50"
           src={ language[sectionedLanguage].unitedKingdomFlag }
           alt="English"
@@ -33,7 +33,9 @@ function Header({ sectionedLanguage, setSectionedLanguage }) {
         />
       </div>
 
-      <h1 id='NameHeader'>{ language[sectionedLanguage].name }</h1>
+      <div>
+        <h1 id='NameHeader'>{ language[sectionedLanguage].name }</h1>
+      </div>
 
       <div className='Menu'>
         <h3 className='ItensMenu'>{ language[sectionedLanguage].about }</h3>

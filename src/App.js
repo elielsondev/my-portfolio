@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
+import About from './components/About';
+
 import './App.css';
 
 /* 
@@ -20,9 +22,8 @@ function App() {
         sectionedLanguage={ sectionedLanguage }
         setSectionedLanguage={ setSectionedLanguage }
       />
-      <Welcome
-        sectionedLanguage={ sectionedLanguage }
-      />
+      <Welcome sectionedLanguage={ sectionedLanguage } />
+      <About sectionedLanguage={ sectionedLanguage } />
     </div>
   )
 }

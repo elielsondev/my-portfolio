@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#TitleMain {
+  color: white;
+  font-family: 'Fredoka One', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#AboutMe {
+  color: white;
+  font-size: 27px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: 'Patrick Hand', cursive;
+}
