@@ -2,8 +2,13 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
 import About from './components/About';
+import Skills from './components/Skills';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 import './App.css';
+
 
 /* 
   font-family: 'Beau Rivage', cursive;
@@ -24,6 +29,10 @@ function App() {
       />
       <Welcome sectionedLanguage={ sectionedLanguage } />
       <About sectionedLanguage={ sectionedLanguage } />
+      <Skills sectionedLanguage={ sectionedLanguage } />
+      <Projects sectionedLanguage={ sectionedLanguage } />
+      <Contact sectionedLanguage={ sectionedLanguage } />
+      <Footer sectionedLanguage={ sectionedLanguage } />
     </div>
   )
 }

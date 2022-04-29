@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#Footer {
+  background-color: #6d0198;
+  text-align: center;
+  padding: 10px;
+}
+
+#TextFooter {
+  color: rgb(208, 255, 0);
+  font-family: 'Courgette', cursive;
+}

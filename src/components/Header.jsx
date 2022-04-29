@@ -1,5 +1,7 @@
 import React from 'react';
 import { language } from '../API/Api';
+import Brazil from '../images/Brazil.svg';
+import GreatBritain from '../images/GreatBritain.svg';
 
 import './css/Header.css';
 
@@ -20,14 +22,16 @@ function Header({ sectionedLanguage, setSectionedLanguage }) {
         <img 
           className="Flag"
           width="50"
-          src={ language[sectionedLanguage].brasilFlag }
+          height="40"
+          src={ Brazil }
           alt="Portugues"
           onClick={ portuguese }
         />
         <img
           className="Flag"
-          width="50"
-          src={ language[sectionedLanguage].unitedKingdomFlag }
+          width="54"
+          height="40"
+          src={ GreatBritain }
           alt="English"
           onClick={ english }
         />
@@ -39,9 +43,8 @@ function Header({ sectionedLanguage, setSectionedLanguage }) {
 
       <div className='Menu'>
         <h3 className='ItensMenu'>{ language[sectionedLanguage].about }</h3>
-        <h3 className='ItensMenu'>{ language[sectionedLanguage].projects }</h3>
-        <h3 className='ItensMenu'>{ language[sectionedLanguage].experience }</h3>
         <h3 className='ItensMenu'>{ language[sectionedLanguage].knowledge }</h3>
+        <h3 className='ItensMenu'>{ language[sectionedLanguage].projects }</h3>
         <h3 className='ItensMenu'>{ language[sectionedLanguage].contact }</h3>
       </div>
     </header>

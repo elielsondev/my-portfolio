@@ -15,8 +15,9 @@ function Welcome({ sectionedLanguage }) {
       <div>
         <img
           id="MyImage"
-          width="400" 
-          src={ language[sectionedLanguage].myImage } 
+          width="400"
+          heigth="400"
+          src="https://i0.wp.com/techweez.com/wp-content/uploads/2018/05/minion.gif?fit=748%2C561&ssl=1" 
           alt="Foto de Elielson Nascimento - Desenvolvedor Web - Front-End"
         />
       </div>
