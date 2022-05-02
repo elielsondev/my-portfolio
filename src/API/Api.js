@@ -1,3 +1,14 @@
+import Colaboracao from '../images/Colaboracao.svg';
+import Collaboration from '../images/Collaboration.svg';
+import Comunicacao from '../images/Comunicacao.svg';
+import Communication from '../images/Communication.svg';
+import Empatia from '../images/Empatia.svg';
+import Empathy from '../images/Empathy.svg';
+import Organizacao from '../images/Organizacao.svg';
+import Organization from '../images/Organization.svg';
+import TrabalhoEmEquipe from '../images/TrabalhoEmEquipe.svg';
+import TeamWork from '../images/TeamWork.svg';
+
 export const language = [
   {
     welcome: 'Olá, Seja Bem Vindo(a)!',
@@ -11,7 +22,7 @@ export const language = [
     knowledge: 'Habilidades',
     contact:'Contato',
     aboutMe: `
-    Antes de mais nada sinta-se à vontade e pode me chamar de Eli / Leo eu até prefiro assim rsrsrs, a tecnólogia sempre
+    Antes de mais nada sinta-se à vontade e pode me chamar de Eli / Leo, eu até prefiro assim rsrsrs, a tecnólogia sempre
     me chamou a atenção, mas foi na adolescência que se iniciou o meu sonho de ser programador, porém a vida não é linear,
     na minha jornada profissional já trabalhei como ajudante de pedreiro, auxiliar de serviços gerais, fiscal de piso,
     operador de produção e outras profissões, entretanto nunca perdi o interesse de ser um programador, mas foi em 2021
@@ -24,6 +35,13 @@ export const language = [
     aprender muito mais no ambiente de trabalho, acredito que o conhecimento é tudo e a troca de aprendizado é 
     fundamental para o desenvolvimento de todos.
     `,
+    softSkills: {
+      Collaboration: Colaboracao,
+      Communication: Comunicacao,
+      Empathy: Empatia,
+      Organization: Organizacao,
+      TeamWork: TrabalhoEmEquipe,
+    },
     footer:`💻 Portfolio desenvolvido por Elielson(Eli) 🤯 com React.js, Hooks, CSS, Café ☕ e Carinho 😍`,
   },
   {
@@ -51,6 +69,13 @@ export const language = [
     voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci 
     velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
     `,
+    softSkills: {
+      Collaboration: Collaboration,
+      Communication: Communication,
+      Empathy: Empathy,
+      Organization: Organization,
+      TeamWork: TeamWork,
+    },
     footer:`💻 Portfolio developed by Elielson(Eli) 🤯 with React.js, Hooks, CSS, Coffee ☕ and affection 😍`,
   },
 ];

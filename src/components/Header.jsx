@@ -42,10 +42,10 @@ function Header({ sectionedLanguage, setSectionedLanguage }) {
       </div>
 
       <div className='Menu'>
-        <h3 className='ItensMenu'>{ language[sectionedLanguage].about }</h3>
-        <h3 className='ItensMenu'>{ language[sectionedLanguage].knowledge }</h3>
-        <h3 className='ItensMenu'>{ language[sectionedLanguage].projects }</h3>
-        <h3 className='ItensMenu'>{ language[sectionedLanguage].contact }</h3>
+        <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].about }</h3>
+        <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].knowledge }</h3>
+        <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].projects }</h3>
+        <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].contact }</h3>
       </div>
     </header>
   )

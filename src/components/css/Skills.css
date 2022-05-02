@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#TitleMain {
+  background-image: linear-gradient(180deg, rgb(134, 130, 255), #b308f6, rgb(39, 96, 252));
+  background-clip: text;
+  color: transparent;
+  font-family: 'Fredoka One', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#Article {
+  align-items: center;
+  text-align: center;
+}
+
+.Softs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+
+img {
+  margin: 30px;
+}
+
+.HeaderText {
+  color: #354FFF;
+  font-family: 'Patrick Hand', cursive;
+  background-color: #ffffff;
+  padding: 1%;
+  font-size: 50px;
+  border-radius: 15%;
+}
