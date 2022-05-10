@@ -5,8 +5,11 @@ import './css/About.css';
 function About({ sectionedLanguage }) {
   return (
     <section>
-      <h1 id="TitleMain">{ language[sectionedLanguage].about }</h1>
-
+      <h1 id="TitleMain">
+        <span id="about">
+          { language[sectionedLanguage].about }
+        </span>
+      </h1>
       <h3 id="AboutMe">{ language[sectionedLanguage].aboutMe }</h3>
     </section>
   )

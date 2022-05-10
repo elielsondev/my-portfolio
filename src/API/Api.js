@@ -56,18 +56,17 @@ export const language = [
     knowledge: 'Skills',
     contact:'Contact',
     aboutMe: `
-    The standard Lorem Ipsum passage, used since the 1500s
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-    occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-    
-    Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
-    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 
-    eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
-    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione 
-    voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci 
-    velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+    Before anything else, feel free to call me Eli or Leo, I even prefer it like this hahaha. Technology has always 
+    grabbed my attention, but it was in my adolescence that my dream of becoming a programmer started. Nonetheless, 
+    life is not linear. In my professional journey I have worked as a bricklayer, a general services assistant, a floor
+    supervisor, a production operator among other things. Never gave up on becoming a programmer but it was in 2021 
+    that i got to know a full stack web development school and everything changed for the better in my life. 
+    I quit my last job and nowadays I am here doing what I truly like and looking for my first opportunity in the field. 
+    I'm currently in the back-end module in the web development course at Trybe, but I have gone through Front-end 😍 and 
+    Fundamentals where I ended up falling in love with React.js. During this time I've learned by developing projects 
+    using HTML, CSS, JS, Jest, React.js e Redux, working with GIT and GitHub. I'm in the middle of a career transition 
+    and feel myself prepared to learn even more in the work environment. I believe that knowledge is everything and that 
+    the learning exchange is fundamental for the developing of everyone.
     `,
     softSkills: {
       Collaboration: Collaboration,

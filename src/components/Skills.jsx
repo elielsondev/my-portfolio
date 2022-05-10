@@ -5,7 +5,7 @@ import './css/Skills.css';
 
 function Skills({ sectionedLanguage }) {
   return (
-    <section >
+    <section id="skills">
       <h1 id='TitleMain'>{ language[sectionedLanguage].knowledge }</h1>
       <article id='Article'>
       <div className='Softs'>

@@ -37,15 +37,25 @@ function Header({ sectionedLanguage, setSectionedLanguage }) {
         />
       </div>
 
-      <div>
-        <h1 id='NameHeader'>{ language[sectionedLanguage].name }</h1>
+      <div> 
+        <a href="#WelcomeSection">
+          <h1 id='NameHeader'>{ language[sectionedLanguage].name }</h1>
+        </a>
       </div>
 
       <div className='Menu'>
-        <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].about }</h3>
-        <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].knowledge }</h3>
-        <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].projects }</h3>
-        <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].contact }</h3>
+          <a href="#about">
+            <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].about }</h3>
+          </a>
+          <a href="#skills">
+            <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].knowledge }</h3>
+          </a>
+          <a href="#projects">
+            <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].projects }</h3>
+          </a>
+          <a href="#contact">
+            <h3 className='ItensMenu nav-item'>{ language[sectionedLanguage].contact }</h3>
+          </a>
       </div>
     </header>
   )
