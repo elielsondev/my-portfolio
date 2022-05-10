@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.056a1a8b.css",
-    "main.js": "/my-portfolio/static/js/main.1184aac7.js",
+    "main.css": "/my-portfolio/static/css/main.4bba33bf.css",
+    "main.js": "/my-portfolio/static/js/main.7d81f249.js",
     "static/media/TrabalhoEmEquipe.svg": "/my-portfolio/static/media/TrabalhoEmEquipe.3116ebf14baf218af444bf3621182af0.svg",
     "static/media/TeamWork.svg": "/my-portfolio/static/media/TeamWork.2f407fe5de29266698b0a64cbef2f979.svg",
     "static/media/Organization.svg": "/my-portfolio/static/media/Organization.75d7d6e668f72aa192dea1c740809659.svg",
@@ -14,12 +14,13 @@
     "static/media/Empathy.svg": "/my-portfolio/static/media/Empathy.a4338575d5aebf6280948fdb6d4354b3.svg",
     "static/media/GreatBritain.svg": "/my-portfolio/static/media/GreatBritain.379451c4add0171371196cd4f68d47b0.svg",
     "static/media/Empatia.svg": "/my-portfolio/static/media/Empatia.cacfba061f70a3f98e897419d387c5a2.svg",
+    "static/media/WhatsApp.svg": "/my-portfolio/static/media/WhatsApp.a1c0a1e0b689e7402117b351a5521b18.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.056a1a8b.css.map": "/my-portfolio/static/css/main.056a1a8b.css.map",
-    "main.1184aac7.js.map": "/my-portfolio/static/js/main.1184aac7.js.map"
+    "main.4bba33bf.css.map": "/my-portfolio/static/css/main.4bba33bf.css.map",
+    "main.7d81f249.js.map": "/my-portfolio/static/js/main.7d81f249.js.map"
   },
   "entrypoints": [
-    "static/css/main.056a1a8b.css",
-    "static/js/main.1184aac7.js"
+    "static/css/main.4bba33bf.css",
+    "static/js/main.7d81f249.js"
   ]
 }
