@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.a0402318.css",
-    "main.js": "/my-portfolio/static/js/main.ee7fcd7d.js",
+    "main.css": "/my-portfolio/static/css/main.d6c10186.css",
+    "main.js": "/my-portfolio/static/js/main.e8f7db11.js",
     "static/media/Calculator.gif": "/my-portfolio/static/media/Calculator.5b3003afb22a3a6fe041.gif",
     "static/media/Desenvolvendo.gif": "/my-portfolio/static/media/Desenvolvendo.94fa8ac9c90c73672ff6.gif",
     "static/media/Lottery.gif": "/my-portfolio/static/media/Lottery.ad588748ec3b7557b201.gif",
@@ -19,11 +19,11 @@
     "static/media/Empatia.svg": "/my-portfolio/static/media/Empatia.cacfba061f70a3f98e897419d387c5a2.svg",
     "static/media/WhatsApp.svg": "/my-portfolio/static/media/WhatsApp.a1c0a1e0b689e7402117b351a5521b18.svg",
     "index.html": "/my-portfolio/index.html",
-    "main.a0402318.css.map": "/my-portfolio/static/css/main.a0402318.css.map",
-    "main.ee7fcd7d.js.map": "/my-portfolio/static/js/main.ee7fcd7d.js.map"
+    "main.d6c10186.css.map": "/my-portfolio/static/css/main.d6c10186.css.map",
+    "main.e8f7db11.js.map": "/my-portfolio/static/js/main.e8f7db11.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0402318.css",
-    "static/js/main.ee7fcd7d.js"
+    "static/css/main.d6c10186.css",
+    "static/js/main.e8f7db11.js"
   ]
 }
